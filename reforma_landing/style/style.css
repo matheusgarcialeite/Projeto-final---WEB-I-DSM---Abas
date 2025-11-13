@@ -1,0 +1,102 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+  margin: 0; 
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icone-cabecalho {
+  width: 90px;
+  height: auto;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #002776;
+}
+
+#menu {
+  background-color: #002776;
+  text-align: center;
+  padding: 10px;
+}
+
+#menu ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+#menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#menu ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#o-que-e {
+  background-color: #e7f3ff;
+}
+
+#objetivos {
+  background-color: #9eecb1;
+}
+
+#mudancas {
+  background-color: #fce390;
+}
+
+#cronograma {
+  background-color: #6d87f7;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #002776;
+}
+
+.imagem-ilustrativa {
+  max-width: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+.botao-voltar-topo {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #002776;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.botao-voltar-topo:hover {
+  background-color: #004085;
+}
+
+footer {
+  background-color: #002776;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

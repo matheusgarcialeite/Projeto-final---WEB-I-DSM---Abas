@@ -1,0 +1,36 @@
+body {
+    background-color: #e9ecef;
+}
+
+header h1 {
+    color: #002776;
+}
+
+
+.carousel {
+    height: 500px; 
+    background-color: #343a40;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner, .carousel-item {
+    height: 100%;
+}
+
+
+.carousel-item .d-flex img {
+    max-height: 380px; 
+    max-width: 80%;    
+    object-fit: contain;
+}
+
+
+.carousel-caption {
+    position: static;
+    padding: 1rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    margin-top: auto;
+}

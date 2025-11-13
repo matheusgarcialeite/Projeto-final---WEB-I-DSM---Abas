@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Gráficos de Notas - DSM</title>
+</head>
+<body>
+
+    <header id="topo">
+        <div class="titulo-principal">
+            <h1>Gráficos de Notas - DSM</h1>
+            <p>Análise de desempenho das disciplinas do 1º Semestre</p>
+        </div>
+    </header>
+
+    <section id="grafico-barra-v">
+        <h2>Gráfico de Barras Verticais</h2>
+        <div class="chart-container">
+            <canvas id="meuGraficoBarraV"></canvas>
+        </div>
+    </section>
+
+    <section id="grafico-barra-h">
+        <h2>Gráfico de Barras Horizontais</h2>
+        <div class="chart-container">
+            <canvas id="meuGraficoBarraH"></canvas>
+        </div>
+    </section>
+
+    <section id="grafico-linha">
+        <h2>Gráfico de Linhas</h2>
+        <div class="chart-container">
+            <canvas id="meuGraficoLinha"></canvas>
+        </div>
+    </section>
+
+    <section id="grafico-pizza">
+        <h2>Gráfico de Pizza</h2>
+        <div class="chart-container">
+            <canvas id="meuGraficoPizza"></canvas>
+        </div>
+    </section>
+
+    <section id="grafico-doughnut">
+        <h2>Gráfico de Rosca (Doughnut)</h2>
+        <div class="chart-container">
+            <canvas id="meuGraficoDoughnut"></canvas>
+        </div>
+    </section>
+    
+    <section id="grafico-misto">
+        <h2>Gráfico Misto (Barra e Linha)</h2>
+        <div class="chart-container">
+            <canvas id="meuGraficoMisto"></canvas>
+        </div>
+    </section>
+
+    <a href="#topo" class="botao-voltar-topo">▲ Voltar ao Topo</a>
+
+    <footer>
+        <p>Atividade de Gráficos com Chart.js</p>
+        <p>&copy; 2025 Matheus Garcia Leite</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script/script.js"></script>
+
+</body>
+</html>

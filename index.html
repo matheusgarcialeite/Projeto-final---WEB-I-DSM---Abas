@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+
+  <title>Projeto Final - Abas (Matheus Leite)</title>
+</head>
+<body id="topo">
+
+<div class="container-principal">
+  
+  <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="abertura-tab" data-toggle="tab" href="#abertura" role="tab" aria-controls="abertura" aria-selected="true">Abertura</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pessoal-tab" data-toggle="tab" href="#menu1" role="tab" aria-controls="menu1" aria-selected="false">Dados Pessoais</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="estudantil-tab" data-toggle="tab" href="#menu2" role="tab" aria-controls="menu2" aria-selected="false">Dados Estudantis</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="postal-tab" data-toggle="tab" href="#menu3" role="tab" aria-controls="menu3" aria-selected="false">Dados Postais</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="tabela-tab" data-toggle="tab" href="#menu4" role="tab" aria-controls="menu4" aria-selected="false">Tabela Dinâmica</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="carousel-tab" data-toggle="tab" href="#menu5" role="tab" aria-controls="menu5" aria-selected="false">Carrousel</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="graficos-tab" data-toggle="tab" href="#menu6" role="tab" aria-controls="menu6" aria-selected="false">Gráficos Dinâmicos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="landpage-tab" data-toggle="tab" href="#menu7" role="tab" aria-controls="menu7" aria-selected="false">LandPage do Projeto</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="localizacao-tab" data-toggle="tab" href="#menu8" role="tab" aria-controls="menu8" aria-selected="false">Localização</a>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="myTabContent">
+
+    <div class="tab-pane fade show active" id="abertura" role="tabpanel" aria-labelledby="abertura-tab">
+      <h2 style="text-align: center; font-size: 2.5em; margin-top: 20px;">Projeto Final - Abas (WEB I)</h2>
+      <h3 style="text-align: center;">Matheus Garcia Leite</h3>
+      <img src="./imagem/Congresso Nacional.png" alt="Abertura" class="imagem-abertura">
+    </div>
+
+    <div class="tab-pane fade" id="menu1" role="tabpanel" aria-labelledby="pessoal-tab">
+      <div class="container-form">
+        <h1>Cadastro Pessoal</h1>
+        <form id="form-pessoal">
+          <div class="form-grid">
+            <div class="form-column">
+              <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="form-group"><label for="nome">Nome Completo:</label><input type="text" id="nome" name="nome" placeholder="Digite seu nome completo"></div>
+                <div class="form-group"><label for="cpf">CPF:</label><input type="text" id="cpf" name="cpf" placeholder="000.000.000-00"></div>
+                <div class="form-group"><label for="rg">RG:</label><input type="text" id="rg" name="rg" placeholder="00.000.000-0"></div>
+                <div class="form-group"><label for="data-nascimento">Data de Nascimento:</label><input type="text" id="data-nascimento" name="data-nascimento" placeholder="dd/mm/aaaa"></div>
+                <div class="form-group"><label for="sexo">Sexo:</label><input type="text" id="sexo" name="sexo" placeholder="Masculino / Feminino / Outro"></div>
+                <div class="form-group"><label for="ativo">Ativo:</label><input type="text" id="ativo" name="ativo" placeholder="Sim / Não"></div>
+              </fieldset>
+            </div>
+            <div class="form-column">
+              <fieldset>
+                <legend>Endereço</legend>
+                <div class="form-group"><label for="endereco">Endereço:</label><input type="text" id="endereco" name="endereco" placeholder="Rua, Av, etc."></div>
+                <div class="form-group"><label for="numero">Nº:</label><input type="text" id="numero" name="numero" placeholder="000"></div>
+                <div class="form-group"><label for="bairro">Bairro:</label><input type="text" id="bairro" name="bairro" placeholder="Digite o bairro"></div>
+                <div class="form-group"><label for="cep">CEP:</label><input type="text" id="cep" name="cep" placeholder="00000-000"></div>
+                <div class="form-group"><label for="cidade">Cidade:</label><input type="text" id="cidade" name="cidade" placeholder="Digite a cidade"></div>
+                <div class="form-group"><label for="estado">Estado:</label><input type="text" id="estado" name="estado" placeholder="UF (Ex: SP)"></div>
+              </fieldset>
+            </div>
+          </div>
+          <button type="submit">Salvar Cadastro</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="menu2" role="tabpanel" aria-labelledby="estudantil-tab">
+      <div class="container-form">
+        <h1>Cadastro Estudantil</h1>
+        <form id="form-estudantil">
+             <div class="form-grid">
+            <div class="form-column">
+              <fieldset>
+                <legend>Dados Pessoais do Estudante</legend>
+                <div class="form-group"><label for="nome-aluno">Nome Completo *</label><input type="text" id="nome-aluno" name="nome-aluno" placeholder="Digite o nome do estudante"></div>
+                <div class="form-group"><label for="data-nascimento-aluno">Data de Nascimento *</label><input type="text" id="data-nascimento-aluno" name="data-nascimento-aluno" placeholder="dd/mm/aaaa"></div>
+                <div class="form-group"><label for="cpf-aluno">CPF *</label><input type="text" id="cpf-aluno" name="cpf-aluno" placeholder="000.000.000-00"></div>
+                <div class="form-group"><label for="rg-aluno">RG *</label><input type="text" id="rg-aluno" name="rg-aluno" placeholder="00.000.000-0"></div>
+                <div class="form-group"><label for="sexo-aluno">Sexo *</label><input type="text" id="sexo-aluno" name="sexo-aluno" placeholder="Masculino / Feminino / Outro"></div>
+                <div class="form-group"><label for="email-aluno">E-mail *</label><input type="email" id="email-aluno" name="email-aluno" placeholder="exemplo@email.com"></div>
+                <div class="form-group"><label for="telefone-aluno">Telefone *</label><input type="tel" id="telefone-aluno" name="telefone-aluno" placeholder="(00) 00000-0000"></div>
+              </fieldset>
+              <fieldset>
+                <legend>Dados do Responsável</legend>
+                <div class="form-group"><label for="nome-responsavel">Nome *</label><input type="text" id="nome-responsavel" name="nome-responsavel" placeholder="Digite o nome do responsável"></div>
+                <div class="form-group"><label for="parentesco">Parentesco *</label><input type="text" id="parentesco" name="parentesco" placeholder="Mãe / Pai / Outro"></div>
+                <div class="form-group"><label for="telefone-responsavel">Telefone *</label><input type="tel" id="telefone-responsavel" name="telefone-responsavel" placeholder="(00) 00000-0000"></div>
+                <div class="form-group"><label for="email-responsavel">E-mail *</label><input type="email" id="email-responsavel" name="email-responsavel" placeholder="responsavel@email.com"></div>
+              </fieldset>
+            </div>
+            <div class="form-column">
+              <fieldset>
+                <legend>Dados Acadêmicos - Ensino Superior</legend>
+                <div class="form-group"><label for="instituicao-ensino">Instituição *</label><input type="text" id="instituicao-ensino" name="instituicao-ensino" placeholder="Nome da faculdade"></div>
+                <div class="form-group"><label for="curso-estudantil">Curso *</label><input type="text" id="curso-estudantil" name="curso-estudantil" placeholder="Nome do curso"></div>
+                <div class="form-group"><label for="matricula">Nº Matrícula *</label><input type="text" id="matricula" name="matricula" placeholder="Digite o RA/Matrícula"></div>
+                <div class="form-group"><label for="periodo-ano">Período/Ano *</label><input type="text" id="periodo-ano" name="periodo-ano" placeholder="Ex: 1º Semestre"></div>
+                <div class="form-group"><label for="turno">Turno *</label><input type="text" id="turno" name="turno" placeholder="Ex: Matutino"></div>
+                <div class="form-group"><label for="data-ingresso">Data de Ingresso *</label><input type="text" id="data-ingresso" name="data-ingresso" placeholder="dd/mm/aaaa"></div>
+                <div class="form-group"><label for="previsao-conclusao">Previsão de Conclusão *</label><input type="text" id="previsao-conclusao" name="previsao-conclusao" placeholder="mm/aaaa"></div>
+              </fieldset>
+            </div>
+          </div>
+          <button type="submit">Salvar Cadastro</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="menu3" role="tabpanel" aria-labelledby="postal-tab">
+      <div class="container-form">
+        <h1>Ficha de Cadastro Postal</h1>
+        <form id="form-postal">
+            <div class="form-grid">
+            <div class="form-column">
+              <div class="form-group"><label for="data-cadastro">Data do cadastro:</label><input type="text" id="data-cadastro" placeholder="dd/mm/aaaa"></div>
+              <div class="form-group"><label for="tipo-correspondencia">Tipo:</label><select id="tipo-correspondencia" class="form-control"><option value="cartas">Cartas</option><option value="documentos">Documentos</option><option value="pacote">Pacote</option><option value="outros">Outros</option></select></div>
+              <div class="form-group"><label for="cep-postal">CEP:</label><input type="text" id="cep-postal" placeholder="00000-000"></div>
+              <div class="form-group"><label for="bairro-postal">Bairro:</label><input type="text" id="bairro-postal" placeholder="Digite o bairro"></div>
+              <div class="form-group"><label for="estado-postal">Estado:</label><input type="text" id="estado-postal" placeholder="Digite o estado"></div>
+              <div class="form-group"><label for="peso">Peso (kg):</label><input type="text" id="peso" placeholder="0,00"></div>
+              <div class="form-group"><label for="data-envio">Data de envio:</label><input type="text" id="data-envio" placeholder="dd/mm/aaaa"></div>
+            </div>
+            <div class="form-column">
+              <div class="form-group"><label for="responsavel">Responsável:</label><input type="text" id="responsavel" placeholder="Nome do responsável"></div>
+              <div class="form-group"><label for="codigo-rastreio">Rastreio:</label><input type="text" id="codigo-rastreio" placeholder="Digite o código"></div>
+              <div class="form-group"><label for="endereco-postal">Endereço:</label><input type="text" id="endereco-postal" placeholder="Digite o endereço"></div>
+              <div class="form-group"><label for="cidade-postal">Cidade:</label><input type="text" id="cidade-postal" placeholder="Digite a cidade"></div>
+              <div class="form-group"><label for="pais">País:</label><input type="text" id="pais" placeholder="Digite o país"></div>
+            </div>
+          </div>
+          <button type="submit">Enviar Cadastro</button>
+        </form>
+      </div>
+    </div>
+    
+    <div class="tab-pane fade" id="menu4" role="tabpanel" aria-labelledby="tabela-tab">
+        <iframe src="./tabela_dinamica/index.html" class="iframe-total" frameborder="0"></iframe>
+    </div>
+
+    <div class="tab-pane fade" id="menu5" role="tabpanel" aria-labelledby="carousel-tab">
+        <iframe src="./carousel_multi/index.html" class="iframe-total" frameborder="0"></iframe>
+        <iframe src="./carousel_single/index.html" class="iframe-total iframe-spacer" frameborder="0"></iframe>
+    </div>
+
+    <div class="tab-pane fade" id="menu6" role="tabpanel" aria-labelledby="graficos-tab">
+      <iframe src="./graficos_chartjs/index.html" class="iframe-total" frameborder="0"></iframe>
+    </div>
+    
+    <div class="tab-pane fade" id="menu7" role="tabpanel" aria-labelledby="landpage-tab">
+      <iframe src="./reforma_landing/index.html" class="iframe-total" frameborder="0"></iframe>
+    </div>
+
+    <div class="tab-pane fade" id="menu8" role="tabpanel" aria-labelledby="localizacao-tab">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center">Faculdade de Tecnologia de Franca "Dr. Thomaz Novelino" • Fatec Franca</h3>
+          <div class="text-center" style="margin-bottom: 20px;">
+            <p style="margin:0;">CNPJ: 62.823.257/0109-10</p>
+            <p style="margin:0;">Rua Irênio Grecco nº 4580 - Vila Imperador</p>
+            <p style="margin:0;">Franca/SP - 14405-191</p>
+          </div>
+          <div style="height: 70vh; width: 100%;" >
+            <iframe src="https://www.google.com/maps?q=Rua+Irênio+Grecco+4580,+Vila+Imperador,+Franca/SP,+14405-191&output=embed" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0; border-radius: 5px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> </div> <a href="#topo" class="botao-voltar-topo">▲ Voltar ao Topo</a>
+
+<footer>
+  <p>Projeto Final - Abas (WEB I) - 1º período do curso Desenvolvimento de Software Multiplataforma - Faculdade de Tecnologia de Franca Dr. Thomaz Novelino</p>
+  <p>© 2025 Matheus Garcia Leite</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./script/script.js"></script>
+</body>
+</html>

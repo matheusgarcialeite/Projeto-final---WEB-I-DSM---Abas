@@ -1,0 +1,1 @@
+console.log("Script da página IPI carregado.");

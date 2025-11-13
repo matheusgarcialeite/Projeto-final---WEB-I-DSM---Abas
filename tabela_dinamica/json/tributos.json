@@ -1,0 +1,32 @@
+[
+  {
+    "categoria": "Produtos e Serviços (Regra Geral)",
+    "tributos_antes": "PIS, Cofins, IPI, ICMS, ISS",
+    "tributos_depois": "CBS (Federal) e IBS (Estadual/Municipal)"
+  },
+  {
+    "categoria": "Cesta Básica",
+    "tributos_antes": "PIS, Cofins, ICMS (com isenções/reduções)",
+    "tributos_depois": "Alíquota Zero (Isenção total)"
+  },
+  {
+    "categoria": "Produtos prejudiciais à saúde/meio ambiente (Ex: cigarros, bebidas açucaradas)",
+    "tributos_antes": "PIS, Cofins, IPI, ICMS",
+    "tributos_depois": "CBS, IBS e Imposto Seletivo (IS)"
+  },
+  {
+    "categoria": "Serviços de Educação e Saúde",
+    "tributos_antes": "PIS, Cofins, ISS",
+    "tributos_depois": "Alíquota reduzida em 60% (CBS e IBS)"
+  },
+  {
+    "categoria": "Produtos da Zona Franca de Manaus",
+    "tributos_antes": "IPI (com isenção)",
+    "tributos_depois": "IPI mantido para garantir competitividade"
+  },
+  {
+    "categoria": "Combustíveis e Lubrificantes",
+    "tributos_antes": "PIS, Cofins, CIDE, ICMS (regimes especiais)",
+    "tributos_depois": "Regime monofásico com alíquotas específicas"
+  }
+]

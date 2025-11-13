@@ -1,0 +1,184 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+    margin: 0; 
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icone-cabecalho {
+    width: 90px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #002776;
+}
+
+#menu {
+    background-color: #002776;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#o-que-e {
+    background-color: #e7f3ff;
+}
+
+#objetivos {
+    background-color: #9eecb1;
+}
+
+#mudancas {
+    background-color: #fce390;
+}
+
+#cronograma {
+    background-color: #6d87f7;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #002776;
+}
+
+.imagem-ilustrativa {
+    max-width: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.botao-voltar-topo {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #002776;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao-voltar-topo:hover {
+    background-color: #004085;
+}
+
+footer {
+    background-color: #002776;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#tabela-detalhada {
+    background-color: #e7f3ff;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#searchButton {
+    background-color: #002776; 
+}
+
+#searchButton:hover {
+    background-color: #004085;
+}
+
+#clearButton {
+    background-color: #6c757d; 
+}
+
+#clearButton:hover {
+    background-color: #5a6268;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead tr {
+    background-color: #002776;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tbody tr:hover {
+    background-color: #d4e8ff;
+}
+
+#no-results {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+.hidden {
+    display: none;
+}
